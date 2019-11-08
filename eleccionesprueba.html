@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Programa de mentorias</title>
+  <link rel="shortcut icon" href="https://material.io/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" href="./estilos/style.css">
+</head>
+
+<body>
+  <header class="crane-header">
+    Mentorias A1
+  </header>
+  <h1></h1>
+  <center> Elegiste </center>
+
+  <main class="crane-main">
+    <form  action="tiempoadonarprueba.html">
+      <div class="crane-row">
+        <div class="crane-field">
+          <select class="crane-input" id="crane-state-input" required>
+            <option value="" selected></option>
+            <option value="HTLM">HTLM</option>
+            <option value="css">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Angular">Angular</option>
+            <option value="React">React</option>
+            <option value="value">Vue.js</option>
+            <option value="Ember">Ember.js</option>
+            <option value="Preact">Preact</option>
+            <option value="Inferno">Inferno</option>
+            <option value="flux">flux</option>
+            <option value="Redux">Redux</option>
+          </select>
+          <label class="crane-label" for="crane-input">
+            BACK
+          </label>
+          <div class="crane-row">
+            <div class="crane-field">
+              <select class="crane-input" id="crane-input" required>
+                <option value="" selected></option>
+                <option value="Python">Python</option>
+                <option value="PHP">PHP 7</option>
+                <option value="Ruby">Ruby</option>
+                <option value="Node">Node.JS</option>
+                <option value="MongoDB">MongoDB</option>
+                <option value="Docker">Docker</option>
+                <option value="GoLang">GoLang</option>
+
+              </select>
+              <label class="crane-label" for="crane-state-input">
+                FRONT
+              </label>
+
+              <div class="crane-row crane-row--submit">
+               
+                  <button type="submit" onclick="guardar()" >Save</button>
+              </div>
+
+
+
+
+
+    </form>
+
+  </main>
+
+<script src="https://bootswatch.com/_vendor/jquery/dist/jquery.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-firestore.js"></script>
+  <script src="elecciones.js" async></script>
+
+</body>
+
+
+</html>

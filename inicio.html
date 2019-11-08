@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shipping Address</title>
+  <link rel="shortcut icon" href="https://material.io/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" href="bundle.css">
+</head>
+<body>
+  <header class="crane-header">
+    Shipping Address
+  </header>
+
+  <main class="crane-main">
+    <form  action="fin.html" >
+      <div class="crane-row">
+        <div class="crane-field">
+          <input class="crane-input" id="crane-name-input" type="text" required autofocus>
+          <label class="crane-label" for="crane-name-input">
+            Name
+          </label>
+        </div>
+      </div>
+      <div class="crane-row">
+        <div class="crane-field">
+          <input class="crane-input" id="crane-address-input" type="text" required>
+          <label class="crane-label" for="crane-address-input">
+            Correo
+          </label>
+        </div>
+      </div>
+      <div class="crane-row">
+        <div class="crane-field">
+          <input class="crane-input" id="crane-input" type="text" required>
+          <label class="crane-label" for="crane-input">
+            Twitter
+          </label>
+        </div>
+      </div>
+      
+        <div class="crane-field">
+          <!--
+            Note: `pattern="[0-9]*"` tells Safari on iPhone to display a large numeric keypad without decimal points.
+            See https://www.filamentgroup.com/lab/type-number.html
+          -->
+   
+          </label>
+        </div>
+      </div>
+      <div class="crane-row">
+          <div class="crane-field">
+            <input class="crane-input" id="crane-input" type="text" required>
+            <label class="crane-label" for="crane-input">
+              Github
+            </label>
+      <div class="crane-row crane-row--submit">
+        <form action="inicio.html">
+        <button type="submit" class="mdc-button mdc-button--raised">
+          <span class="mdc-button__label">Save</span>
+        </button>
+
+      </div>
+    </form>
+  </main>
+
+  <script src="bundle.js" async></script>
+</body>
+</html>

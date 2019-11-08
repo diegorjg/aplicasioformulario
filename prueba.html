@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shipping Address</title>
+  <link rel="shortcut icon" href="https://material.io/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" href="bundle.css">
+</head>
+<body>
+  <header class="crane-header">
+    Shipping Address
+  </header>
+
+  <main class="crane-main">
+    <form  action="fin.html" >
+      <div class="crane-row">
+        <div class="crane-field">
+          <input class="crane-input" id="crane-name-input" type="text" required autofocus>
+          <label class="crane-label" for="crane-name-input">
+            Name
+          </label>
+        </div>
+      </div>
+      <div class="crane-row">
+        <div class="crane-field">
+          <input class="crane-input" id="crane-email-input" type="text" required>
+          <label class="crane-label" for="crane-email-input">
+            Correo
+          </label>
+        </div>
+      </div>
+      <div class="crane-row">
+        <div class="crane-field">
+          <input class="crane-input" id="crane-twitter-input" type="text" required>
+          <label class="crane-label" for="crane-input">
+            Twitter
+          </label>
+        </div>
+      </div>
+      
+        <div class="crane-field">
+        
+   
+          </label>
+        </div>
+      </div>
+      <div class="crane-row">
+          <div class="crane-field">
+            <input class="crane-input" id="crane-input" type="text" required>
+            <label class="crane-label" for="crane-input">
+              Github
+            </label>
+      <div class="crane-row crane-row--submit">
+        <form action="inicio.html">
+        
+<button type="submit" onclick="guardar()" >Save</button>
+
+      </div>
+    </form>
+  </main>
+  <script src="https://bootswatch.com/_vendor/jquery/dist/jquery.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-firestore.js"></script>
+  <script src="inicio.js" async></script>
+</body>
+</html>

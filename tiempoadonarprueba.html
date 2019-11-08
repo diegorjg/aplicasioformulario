@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Programa de mentorias</title>
+  <link rel="shortcut icon" href="https://material.io/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" href="./estilos/style.css">
+</head>
+
+<body>
+  <header class="crane-header">
+    Mentorias A1
+  </header>
+  <h1>
+  <center> Tiempo a donar </center> </h1>
+
+
+
+  <main class="crane-main">
+    <form action="prueba.html">
+      <div class="crane-row">
+        <div class="crane-field">
+
+          <div class="crane-row">
+            <div class="crane-field">
+                <label class="crane-label" id="crane-state-input" type="number" for="crane-state-input">
+                    HORAS
+                  </label>
+              <select class="crane-input" id="crane-state-input" required>
+                <option value="" selected></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="mas">MAS</option>
+              </select>
+              
+              <div class="crane-row crane-row--submit">
+                  <button type="submit" onclick="guardar()" >Save</button>
+                  
+                 </div>
+
+
+
+       
+    </form>
+
+  </main>
+  <script src="https://bootswatch.com/_vendor/jquery/dist/jquery.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-firestore.js"></script>
+
+  <script src="tiempoadonar.js" async></script>
+</body>
+
+</html>
